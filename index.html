@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto scroll</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#coffee" class="nav-link bg-coffee">Coffee</a>
+        <a href="#sun" class="nav-link bg-sun">Sun</a>
+        <a href="#music" class="nav-link bg-music">Music</a>
+        <a href="#love" class="nav-link bg-love">Love</a>
+      </nav>
+    </header>
+    <main>
+      <section id="coffee" class="section bg-coffee">
+        <h2 class="section-title">Площадь покрытия досками</h2>
+        
+        <p>площадь (м2)</p>
+        <input class="square" type="number" value="0">
+        <button class="square_button">ввести</button>
+
+        <p>ширина доски (м)</p>
+        <input class="width_board" type="number" value="0">
+        <button class="width_button">ввести</button>
+
+        <p>длина (м)</p>
+        <input class="length_board" type="number" value="0">
+        <button class="length_button">ввести</button>
+        <p class=result>Вам потребуется: </p>
+      </section>
+      <section id="sun" class="section bg-sun">
+            <h2 class="section-title">Sun</h2>
+          </section>
+          <!-- <section class="gallery">
+            <div class="frame">Доскитут.рф</div>
+            <div class="frame">Портал пиломатериалов</div>
+            <div class="frame">Производство в Красноярске</div>
+          </section> -->
+
+        <!-- <h2 class="section-title">Sun</h2> -->
+      </section>
+      <section id="music" class="section bg-music">
+        <h2 class="section-title">Music</h2>
+        
+      </section>
+      <section id="love" class="section bg-love">
+        <h2 class="section-title">Love</h2>
+      </section>
+    </main>
+    <script src="app.js"></script>
+    <script src="3dscroll.js"></script>
+    <script src="formula.js"></script>
+  </body>
+</html>
