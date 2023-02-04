@@ -11,10 +11,11 @@ function widthClick(){
 function depthClick(){
     let depth_board = +document.querySelector('.depth_board').value;
     let width_board = +document.querySelector('.width_board').value;
+    let length_board = +document.querySelector('.length_board').value;
     if (!depth_board){document.querySelector('.result').innerHTML = "Введите число";
     
 }
-let cube = (depth_board / 100) * (width_board / 100) * 6;
+let cube = (depth_board / 100) * (width_board / 100) * length_board;
     return cube; 
 }
 function lengthClick(){
